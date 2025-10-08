@@ -13,17 +13,39 @@
     }
     body{background-color: #272727;
     	color: white;}
+
   </style>
 </head>
 <body>
-<h1>美秀集團Amazing Show</h1>
+</head>
+<body>
+<style>
+    @keyframes rainbow-flash {
+      0%   { color: #CECEFF; }
+      20%  { color: #ACD6FF; }
+      40%  { color: #CAFFFF; }
+      60%  { color: #C1FFE4; }
+      80%  { color: #BBFFBB; }
+      100% { color: #A3D1D1; }
+    }
+
+    .flashing-text {
+      animation: rainbow-flash 2s infinite;
+      font-size: 2em;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="flashing-text">美秀集團Amazing Show</div>
+</body>
 <p>美秀集團（英文：Amazing Show / Bisiugroup）是台灣嘉義的獨立樂團，曲風特色是帶有復古台味的搖滾和民謠，樂團採用自製樂器進行演出。該樂團自2016年5月開始對外活動,現有成員為主唱兼吉他手狗柏、吉他手修齊、鍵盤手冠佑、鼓手鍾錡以及貝斯手婷文。團名「美秀」取自狗柏、冠佑兩位母親的名字「秀美」，也是台灣人最親切的那個菜市場名，自封「低科技俗氣樂團」的他們，演出總是扛著一把叫做「炫炮」的自製樂器，唱著台味十足的歌曲，時不時還秀一段全台語的饒舌，不但吸引大批歌迷擁戴，也屢獲金曲獎肯定，首張專輯《電火王》便一次入圍最佳新人、最佳樂團及最佳裝幀設計獎等3項提名，2022年也再度憑藉第二張專輯《多色寶山大王》入圍最佳樂團及最佳MV等2大獎項。</p>
 
 <style>
   .member {
     display: inline-block;
     text-align: center;
-    margin: 10px;
+    margin: 20px;
   }
 </style>
 
@@ -31,22 +53,22 @@
 
 <div class="member">
   <p>狗柏 (主唱・吉他手・炫砲手)</p>
-  <img src="狗柏.jfif" width="201" height="251">
+  <img src="狗頭.jpg" width="201" height="251">
 </div>
 
 <div class="member">
   <p>冠佑 (鍵盤手)</p>
-  <img src="冠佑.jfif" width="201" height="251">
+  <img src="冠佑頭貼.jfif" width="201" height="251">
 </div>
 
 <div class="member">
   <p>鍾錡 (鼓手)</p>
-  <img src="images.jfif" width="201" height="251">
+  <img src="鍾錡頭貼.jfif" width="201" height="251">
 </div>
 
 <div class="member">
   <p>婷文 (貝斯手)</p>
-  <img src="婷文.jfif" width="201" height="251">
+  <img src="婷文頭貼.jfif" width="201" height="251">
 </div>
 
 
@@ -70,7 +92,7 @@
 
     <div id="15" class="content">
     	<p>2015年，因為狗柏寫的一首〈細粒的目睭〉入選了歌曲比賽「南面而歌」的專輯，成為了美秀集團創立的契機，同年自製樂器台八線製作完成。</p>
-        <img src="早期.jpg" width="750" height="500"/></div>
+        <img src="2015團照.jpg" width="750" height="500"/></div>
     <div id="16" class="content">
     	<p>2016年4月23日，美秀集團發表了第一首作品〈懶趴火〉，緊接著在4月30日隨即發布第二首歌〈Only Scott Knows〉。而後5月21日發表的〈捲菸〉成為了美秀集團的代表作，並已在 YouTube 創下高達千萬的點閱率。5月27日，美秀集團在台北實踐大學首次演奏「炫炮」進行了開張大吉酬賓秀，正式展開了他們的樂團生涯。</p>
         <p>2016年7月8日，美秀集團發布了收錄於《南面而歌2015》的新歌 MV〈細粒的目睭〉，因其復古式KTV呈現MV的手法，此曲亦成為許多人的焦點。9月17日，美秀集團於 YouTube 頻道首次以「美秀電器」的主題介紹樂團自製特殊樂器，「炫炮」。10月31日，因當兵而暫時缺席美秀集團的李威正式回歸，並與代打鼓手鍾錡交接。12月31日，參加嘉義市《迎接 2017 全嘉藝起來跨年晚會》，卻因時長而無法演唱著名代表作〈捲菸〉，於是在1月1日凌晨一點進行直播演唱不插電版本，因其未排練過而卻賦予了此歌別樣的新意,此直播版本在2018年也被美秀集團重新剪接發布。</p>
@@ -145,7 +167,7 @@
     .album-title {
       cursor: pointer;
       font-weight: bold;
-      color: #00AEAE;
+      color: #C2FF68;
     }
     .tracklist {
       display: none;
